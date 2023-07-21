@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html,
+body {
+    min-height: 100vh;
+    background: linear-gradient(#e9f0ef, #3c4c4f);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main {
+    padding: 0 9vw;
+
+    #section {
+        max-width: 100%;
+        display: inline-block;
+        border: 1px solid black;
+        border-radius: 24px;
+        padding: 10px;
+        
+      #text {
+       max-width: inherit;
+        height: 70px;
+        border-radius: 24px;
+        font-size: 24px;
+        padding: 20px;
+        color: #ff0000;
+      }
+    }
+}
+
